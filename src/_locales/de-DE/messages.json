@@ -8,11 +8,8 @@
   "lang.settings": {
     "message": "Einstellungen"
   },
-  "lang.localOnly": {
-    "message": "Änderungen nur lokal speichern (Lokale Datenbank)"
-  },
-   "lang.alwaysAddRePrefix": {
-    "message": "Bei Antworten immer Re: voranstellen"
+  "lang.keepBackup": {
+    "message": "Sicherung der E-Mail vor dem Umbenennen im lokalen Ordner „EES-Temp” ablegen."
   },
   "lang.menuTitle": {
     "message": "E-Mail-Betreff bearbeiten"
@@ -22,8 +19,5 @@
   },
   "lang.subjectOld": {
     "message": "Original-Betreff:"
-  },
-  "lang.warning": {
-    "message": "Warnung, der Betreff wurde schon bearbeitet. Eine erneute Änderung ist mit Risiken verbunden."
   }
 }

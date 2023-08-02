@@ -8,11 +8,8 @@
   "lang.settings": {
     "message": "Beállítások"
   },
-  "lang.localOnly": {
-    "message": "Csak helyi változások (csak a helyi Thunderbird index adatbázis módosul)"
-  },
-  "lang.alwaysAddRePrefix": {
-    "message": "Always prepend Re: if e-mail is an answer"
+  "lang.keepBackup": {
+    "message": "Az átnevezés előtt tároljon biztonsági másolatot az e-mailről a helyi „EES-Temp” mappában."
   },
   "lang.menuTitle": {
     "message": "Tárgy szerkesztése"
@@ -22,8 +19,5 @@
   },
   "lang.subjectOld": {
     "message": "Eredeti tárgy:"
-  },
-  "lang.warning": {
-    "message": "Figyelem, a téma már megváltozott. Próbálja ki újra a saját felelősségére."
   }
 }

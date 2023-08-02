@@ -2,13 +2,12 @@
   "applications": {
     "gecko": {
       "id": "EditMailSubject@jcp.convenant",
-      "strict_min_version": "102.0",
-      "strict_max_version": "102.*"
+      "strict_min_version": "115.0"
     }
   },
   "manifest_version": 2,
   "name": "EditEmailSubject MX",
-  "version": "6.1",
+  "version": "7.2",
   "author": "John Bieling",
   "description": "__MSG_extensionDescription__",
   "default_locale": "en-US",
@@ -22,15 +21,13 @@
     "menus",
     "messagesRead",
     "messagesMove",
+    "messagesImport",
     "accountsRead",
+    "accountsFolders",
     "messagesDelete"
   ],
   "background": {
-    "scripts": [
-      "content/scripts/preferences.js",
-      "content/editemailsubject.js",
-      "background.js"
-    ]
+    "page": "background.html"
   },
   "commands": {
     "edit_email_subject": {
@@ -38,22 +35,6 @@
         "default": "Ctrl+Shift+E"
       },
       "description": "Open the Edit Email Subject popup"
-    }
-  },
-  "experiment_apis": {
-    "MessageModification": {
-      "schema": "api/MessageModification/schema.json",
-      "parent": {
-        "scopes": [
-          "addon_parent"
-        ],
-        "paths": [
-          [
-            "MessageModification"
-          ]
-        ],
-        "script": "api/MessageModification/implementation.js"
-      }
     }
   },
   "options_ui": {

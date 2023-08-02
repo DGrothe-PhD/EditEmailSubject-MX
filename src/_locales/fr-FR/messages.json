@@ -8,11 +8,8 @@
   "lang.settings": {
     "message": "Réglages"
   },
-  "lang.localOnly": {
-    "message": "Changements locaux uniquement (base de donnée locale de Thunderbird)"
-  },
-  "lang.alwaysAddRePrefix": {
-    "message": "Toujours faire précéder les réponses de Re:."
+  "lang.keepBackup": {
+    "message": "Enregistrez une sauvegarde de l'e-mail dans le dossier local „EES-Temp” avant de le renommer."
   },
   "lang.menuTitle": {
     "message": "Editer le sujet du message"
@@ -22,8 +19,5 @@
   },
   "lang.subjectOld": {
     "message": "Sujet original:"
-  },
-  "lang.warning": {
-    "message": "Attention, le sujet de ce mail a déjà été modifié. Le changer de nouveau comprend des risques."
   }
 }

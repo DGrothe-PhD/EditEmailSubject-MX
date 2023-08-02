@@ -1,3 +1,5 @@
+import * as preferences from "/content/scripts/preferences.mjs";
+
 document.addEventListener('DOMContentLoaded', () => {
-  editEmailSubjectPreferences.load(document);
+  preferences.load(document);
 }, { once: true });

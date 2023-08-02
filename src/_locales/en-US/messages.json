@@ -8,11 +8,8 @@
   "lang.settings": {
     "message": "Settings"
   },
-  "lang.localOnly": {
-    "message": "Only local changes (will only change local Thunderbird index database)"
-  },
-  "lang.alwaysAddRePrefix": {
-    "message": "Always prepend Re: if e-mail is an answer"
+  "lang.keepBackup": {
+    "message": "Back up email into the local folder „EES-Temp” before renaming it."
   },
   "lang.menuTitle": {
     "message": "Edit Mail Subject"
@@ -22,8 +19,5 @@
   },
   "lang.subjectOld": {
     "message": "Original subject:"
-  },
-  "lang.warning": {
-    "message": "Warning, subject has already been changed. Try it again at your own risk."
   }
 }

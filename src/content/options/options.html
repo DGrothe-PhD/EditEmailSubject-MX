@@ -4,25 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Options</title>
-  <link rel="stylesheet" href="/content/options/options.css" type="text/css" />
   <script src="/content/scripts/locales.js"></script>
-  <script src="/content/scripts/preferences.js"></script>
-  <script src="/content/options/options.js"></script>
+  <script src="/content/options/options.js" type="module"></script>
 </head>
 
 <body>
   <hr>
   <div class="ees" style="font-size:small">
     <h2>__EESMSG_lang.settings__</h2>
-    <label>
-      <input type="checkbox" instantApply="true" preference="localOnly" />
-      <div>__EESMSG_lang.localOnly__</div>
-    </label>
-    <p></p>
-    <label>
-      <input type="checkbox" instantApply="true" preference="addRePrefix" />
-      <div>__EESMSG_lang.alwaysAddRePrefix__</div>
-    </label>
+    <label><input type="checkbox" instantApply="true" preference="keepBackup" />__EESMSG_lang.keepBackup__</label>
   </div>
 </body>
 
